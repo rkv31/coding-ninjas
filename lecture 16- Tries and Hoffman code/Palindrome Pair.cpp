@@ -1,3 +1,28 @@
+Palindrome Pair
+Givan n number of words, you need to find if there exist any two words which can be joined to make a palindrome or any word itself is a palindrome.
+Return true or false.
+Input Format :
+Line 1 : Integer n
+Line 2 : n words (separated by space)
+Output Format :
+true ot false
+Sample Input 1 :
+4
+abc def ghi cba
+Sample Output 2 :
+true
+Sample Output 1 Expalanation :
+"abc" and "cba" forms a palindrome
+Sample Input 2 :
+4
+abc def ghi hg
+Sample Output 2 :
+true
+Sample Output 2 Expalanation :
+"ghi" and "hg" forms a palindrome
+
+
+
 #include <string>
 #include <vector> 
 #include<algorithm>
