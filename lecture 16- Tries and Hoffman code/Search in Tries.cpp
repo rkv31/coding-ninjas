@@ -1,3 +1,9 @@
+Code : Search in Tries
+Implement the function SearchWord for the Trie class.
+For a trie, write the function for searching a word. Return true if found successfully otherwise return false.
+Note : main function is given for your reference which we are using internally to test the code.
+
+
 // #include "TrieNode.h"
 #include <string>
 
